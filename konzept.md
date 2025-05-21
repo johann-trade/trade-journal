@@ -41,6 +41,7 @@ Architektur & Technologie-Stack
 - Alternativ Vuejs, aber bislang wird bei PJM nur React verwendet, daher bietet es sich an in diesem Ökosystem zu bleiben.
 - In der ersten Version kein Next.js (Kosten/Nutzen)
 - UI-Bibliothek: Radix UI. Keine große Präferenz, jede andere UI-Bibliothek ist auch möglich.
+- Translations über i18next
 - Cache-Management über Tanstack Query (Cache over State)
 - Kein State-Management bis es nicht nötig wird (dann ggf Zustand)
 - Validierung: Zod
@@ -62,7 +63,7 @@ In meiner Erfahrung funktioniert beides relativ gleich gut. In zweiten Ausbausch
 
 ### Testing: E2E-Tests mit Playwright und Codecept
 
-Ich bevorzuge umfangreiche E2E- sowie API-Tests sowie Typechecking und Linting in der Pipelines über Unittests die mehr im Einzelfall nützlich sind (gern auch als doctests).
+Ich bevorzuge umfangreiche E2E- sowie API-Tests sowie Typechecking und Linting in der Pipeline über Unittests die mehr im Einzelfall nützlich sind (gern auch als doctests).
 
 - E2E mit Playwright und ggf Codecept
 - linting per eslint und tsc, formatting mit prettier
@@ -91,4 +92,3 @@ Die Aufwandschätzung ist in Stunden angegeben und umfasst die wichtigsten Arbei
 | CI/CD Setup | 2 |
 | Deployment (Prototype to Hetzner) | 2 |
 | **Gesamt** | **ca. 59 Stunden (+ optional 6h)** |
-|--------------|------------------|

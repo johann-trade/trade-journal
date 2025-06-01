@@ -78,17 +78,19 @@ Die Aufwandschätzung ist in Stunden angegeben und umfasst die wichtigsten Arbei
 
 | Arbeitspaket | Aufwand (Stunden) |
 |--------------|------------------|
-| Projektsetup (Frontend, Backend, DB) | 4 |
-| Order-Eingabe UI + Validierung | 4 |
-| Order-API + Persistenz | 4 |
-| Order-Historie + Filtern (UI + API) | 5 |
-| Trade-Logik (Backend) | 6 |
-| Anzeige abgeschlossener Trades | 4 |
-| Offene Positionen berechnen/anzeigen | 5 |
-| Statistische Auswertung (G/V, Dauer) | 6 |
-| UI-Design & Styling (gesamt) | 6 |
-| Optionale Features (Kapital, Notizen) | 6 |
-| Testing (Frontend + Backend) | 5 |
-| CI/CD Setup | 2 |
-| Deployment (Prototype to Hetzner) | 2 |
-| **Gesamt** | **ca. 59 Stunden (+ optional 6h)** |
+| [Initial Monorepo setup](https://github.com/johann-trade/trade-journal/issues/1) | 4 |
+| [Intial layout + Design UI](https://github.com/johann-trade/trade-journal/issues/3) | 2 |
+| [Order- Api](https://github.com/johann-trade/trade-journal/issues/2) | 2 |
+| [Order UI](https://github.com/johann-trade/trade-journal/issues/4) | 2 |
+| [Trades Api](https://github.com/johann-trade/trade-journal/issues/5) | 3 |
+| [Trades UI](https://github.com/johann-trade/trade-journal/issues/8) | 2 |
+| [Open Stock Api](https://github.com/johann-trade/trade-journal/issues/6) | 2 |
+| [Open Stock UI](https://github.com/johann-trade/trade-journal/issues/9) | 3 |
+| [Trade analytics api](https://github.com/johann-trade/trade-journal/issues/7) | 3 |
+| [Trade analytics UI](https://github.com/johann-trade/trade-journal/issues/10) | 4 |
+| [Depot API](https://github.com/johann-trade/trade-journal/issues/11) | 3 |
+| [Depot UI](https://github.com/johann-trade/trade-journal/issues/12) | 3 |
+| [Add notes to trades](https://github.com/johann-trade/trade-journal/issues/13) | 4 |
+| [Add notes to order](https://github.com/johann-trade/trade-journal/issues/14) | 4 |
+
+| **Gesamt** | **ca. 41 Stunden** |

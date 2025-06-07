@@ -38,7 +38,7 @@ services:
 # with each other, by using their container name as a hostname
 networks:
   app_network:
-    external: true
+    #external: true
 
 # Define volumes for persistent data storage
 volumes:

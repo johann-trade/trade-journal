@@ -63,7 +63,7 @@ In meiner Erfahrung funktioniert beides relativ gleich gut. In zweiten Ausbausch
 
 ### Testing: E2E-Tests mit Playwright und Codecept
 
-Ich bevorzuge umfangreiche E2E- sowie API-Tests sowie Typechecking und Linting in der Pipeline über Unittests die mehr im Einzelfall nützlich sind (gern auch als doctests).
+Ich bevorzuge umfangreiche E2E- sowie API-Tests sowie Typechecking und Linting in der Pipelines über Unittests die mehr im Einzelfall nützlich sind (gern auch als doctests).
 
 - E2E mit Playwright und ggf Codecept
 - linting per eslint und tsc, formatting mit prettier
